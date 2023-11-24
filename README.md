@@ -112,7 +112,11 @@ Firewall rules conflict:
 
 • Issue- During addition rules. ‘add_rule’ method adds a new rule without checking the 
 existing rule.
+
 • When a new rule overlaps an existing rule, there are possibilities of rule conflicts.
+
 Possible Solution:
+
 • Add calidation mechanism in ‘add_rule’ method.
+
 • Check for existing rules and directions prior to adding any new rule.
